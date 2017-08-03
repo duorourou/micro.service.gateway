@@ -1,0 +1,15 @@
+server:
+  tomcat:
+    max-threads: 250
+  port: 8999
+
+topic:
+  receiver: kafkaReceiver.t
+
+spring:
+  redis:
+    host: 192.168.56.101
+    port: 6381
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/kanban
